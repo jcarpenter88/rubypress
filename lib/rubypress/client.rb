@@ -15,7 +15,7 @@ module Rubypress
   class Client
 
     attr_reader :connection
-    attr_accessor :port, :ssl_port, :host, :path, :username, :password, :use_ssl, :default_post_fields,
+    attr_accessor :port, :ssl_port, :host, :path, :proxy_host, :proxy_port, :username, :password, :use_ssl, :default_post_fields,
                   :debug, :http_user, :http_password, :retry_timeouts, :timeout, :cookie
 
     def initialize(options = {})
